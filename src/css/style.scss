@@ -1,12 +1,12 @@
-@import "./fonts.scss";
-@import "./consts.scss";
-@import "./color.scss";
-@import "./sidebar.scss";
-@import "./mirrors.scss";
-@import "./iso.scss";
-@import "./site.scss";
-@import "./about.scss";
-@import "./icon.scss";
+@use "./fonts.scss" as *;
+@use "./consts.scss" as *;
+@use "./color.scss" as *;
+@use "./sidebar.scss" as *;
+@use "./mirrors.scss" as *;
+@use "./iso.scss" as *;
+@use "./site.scss" as *;
+@use "./about.scss" as *;
+@use "./icon.scss" as *;
 
 :root {
   color-scheme: light dark;

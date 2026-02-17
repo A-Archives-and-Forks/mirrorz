@@ -1,4 +1,4 @@
-@import "./consts.scss";
+@use "./consts.scss" as *;
 
 .iso {
   display: flex;
@@ -125,5 +125,4 @@
   background-color: $bar-bg-hover;
   color: $bar-text-hover;
 }
-
 

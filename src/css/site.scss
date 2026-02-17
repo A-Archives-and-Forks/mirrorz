@@ -1,5 +1,6 @@
-@import "./consts.scss";
-@import "./fonts.scss";
+@use "sass:meta";
+@use "./consts.scss" as *;
+@use "./fonts.scss" as *;
 
 .site {
   display: flex;
@@ -99,4 +100,4 @@
 .meta-line {
   margin-left: 20px;
 }
-@import "./darkmode.scss";
+@include meta.load-css("./darkmode.scss");

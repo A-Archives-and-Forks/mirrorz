@@ -1,5 +1,5 @@
-@import "./consts.scss";
-@import "./fonts.scss";
+@use "./consts.scss" as *;
+@use "./fonts.scss" as *;
 
 .mirrorz {
   display: flex;
